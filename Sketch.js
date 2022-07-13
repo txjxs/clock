@@ -24,7 +24,7 @@ function draw(){
     stroke('rgb(41, 52, 98)');
     line(0,0,100,0);
     pop();
-    stroke('rgb(41, 52, 98)');
+    stroke('rgb(254, 177, 57)');
     let end_mn = map(mn,0,60, 0, 360);
     arc(0,0,280,280,0,end_mn);
     push();
