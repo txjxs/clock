@@ -14,8 +14,8 @@ function draw(){
 
 
     strokeWeight(4);
-    
-    stroke('rgb(214, 28, 78)');
+    // seconds
+    stroke('rgb(41, 52, 98)');
     noFill();
     let end_sc = map(sc,0,60, 0, 360);
     arc(0,0,300,300,0,end_sc);
@@ -24,6 +24,7 @@ function draw(){
     stroke('rgb(41, 52, 98)');
     line(0,0,100,0);
     pop();
+    //Minutes
     stroke('rgb(254, 177, 57)');
     let end_mn = map(mn,0,60, 0, 360);
     arc(0,0,280,280,0,end_mn);
@@ -32,6 +33,8 @@ function draw(){
     stroke('rgb(254, 177, 57)');
     line(0,0,100,0);
     pop();
+
+    //hour
     stroke('rgb(255, 248, 10)');
     let end_hr = map(hr % 12,0,12, 0, 360);
     arc(0,0,260,260,0,end_hr);
